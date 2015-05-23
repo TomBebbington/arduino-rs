@@ -1,7 +1,7 @@
 [package]
-name = "arduino"
-version = "0.1.0"
-authors = ["Matt Coffin <mcoffin13@gmail.com>"]
+name = "arduino-plus"
+version = "0.2.0"
+authors = ["Matt Coffin <mcoffin13@gmail.com>", "Tom Bebbington <tophattedcoder@gmail.com"]
 
 [lib]
 name = "arduino"
