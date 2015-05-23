@@ -21,12 +21,14 @@ macro_rules! conv(
 );
 
 #[repr(u32)]
+#[derive(Eq, PartialEq)]
 pub enum Mode {
     Input,
     Output,
     InputPullUp
 }
 #[repr(u8)]
+#[derive(Eq, PartialEq)]
 pub enum DigitalValue {
     Low,
     High
